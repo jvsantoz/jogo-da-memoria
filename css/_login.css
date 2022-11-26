@@ -24,5 +24,46 @@ body {
 }
 
 .login_header img {
+    width: 75rem;
+}
 
+.login_input {
+    font-size: 2.5rem;
+    
+    border: 0.2rem solid var(--color-primary);
+    border-radius: 1rem;
+    background-color: var(--color-second);
+    color: var(--color-primary);
+    outline: none;
+
+
+    margin-bottom: 7rem;
+    padding: 1.5rem;
+    max-width: 420px;
+    width: 100%;
+}
+
+input::placeholder{
+    color: var(--color-primary);
+}
+
+.login_button {
+    font-size: 2rem;
+    background-color: var(--color-second);
+    color: var(--color-primary);
+
+    border-radius: 1rem;
+    border: 0.2rem solid var(--color-primary);
+    cursor: pointer;
+
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 15rem;
+}
+
+.login_button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    border: 0.2rem solid #aaa;
+    cursor: auto;
 }
