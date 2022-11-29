@@ -14,7 +14,6 @@
     width: 100%;
     height: 17.5rem;
     
-    background-color: black;
     border-radius: 1rem;
 
     transition: all 0.6s ease;
@@ -29,6 +28,8 @@
     background-size: cover;
     background-position: center;
     border-radius: 1rem;
+
+    transition: all 400ms ease;
 }
 
 .front {
@@ -41,7 +42,11 @@
     backface-visibility: hidden;
 }
 
-.card:hover {
+.reveal-card {
     transform: rotateY(180deg);
 }
 
+.disabled-card {
+    filter: saturate(0);
+    opacity: 0.8;
+}
