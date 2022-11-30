@@ -5,7 +5,7 @@ main {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    padding: 2rem 2rem 5rem;
+    padding: 2rem 2rem 0rem;
 }
 
 header {
@@ -32,7 +32,7 @@ header {
 
     background-color: rgba(0, 0, 0, 0.6);
     width: 90rem;
-    height: 80rem;
+    height: 83rem;
     border-radius: 4rem;
 
     margin-top: 1.5rem;
@@ -90,3 +90,37 @@ header {
     filter: saturate(0);
     opacity: 0.8;
 }
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.btn-reset {
+    font-size: 1.3rem;
+
+    border: 0.3rem solid var(--color-primary);
+    border-radius: 1rem ;
+    background-color: var(--color-second);
+    color: var(--color-primary);
+
+    text-decoration: none;
+    cursor: pointer;
+    
+    margin-top: 3rem;
+    padding: 1.5rem;
+}
+
+.btn-reset:hover {
+    border: 0.3rem solid #fff;
+    color: #fff;
+
+    transition: all 0.2s ease;
+}
+
+.btn-reset a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
