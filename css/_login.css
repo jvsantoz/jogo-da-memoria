@@ -30,10 +30,10 @@ body {
 .login_input {
     font-size: 2.5rem;
     
-    border: 0.2rem solid var(--color-primary);
+    border: 0.2rem solid #aaa;
     border-radius: 1rem;
-    background-color: var(--color-second);
-    color: var(--color-primary);
+    background-color: #eee;
+    color: #aaa;
     outline: none;
 
 
@@ -43,8 +43,16 @@ body {
     width: 100%;
 }
 
-input::placeholder{
+input:focus {
+    border: 0.2rem solid var(--color-primary);
+    background-color: var(--color-second);
     color: var(--color-primary);
+
+    transition: all 0.2s ease;
+}
+
+input::placeholder{
+    color: #aaa;
 }
 
 .login_button {
@@ -61,9 +69,17 @@ input::placeholder{
     max-width: 15rem;
 }
 
+.login_button:hover {
+    border: 0.2rem solid #fff;
+    background-color: var(--color-second);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
 .login_button:disabled {
     background-color: #eee;
     color: #aaa;
     border: 0.2rem solid #aaa;
     cursor: auto;
 }
+
