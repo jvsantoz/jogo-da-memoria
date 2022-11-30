@@ -31,16 +31,16 @@ header {
     position: absolute;
 
     background-color: rgba(0, 0, 0, 0.6);
-    width: 85rem;
-    height: 90rem;
+    width: 90rem;
+    height: 80rem;
     border-radius: 4rem;
 
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
     justify-items: center;
     
@@ -51,8 +51,8 @@ header {
 
 .card {
     position: relative;
-    width: 14rem;
-    height: 18rem;
+    width: 11rem;
+    height: 15rem;
     
     border-radius: 1rem;
 
@@ -65,7 +65,7 @@ header {
     height: 100%;
     position: absolute;
 
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     border-radius: 1rem;
 
