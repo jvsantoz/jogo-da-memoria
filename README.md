@@ -5,7 +5,7 @@
 <h2 align="center"> 📽️Apresentação </h2>
 
 <p align="center">
-  <img alt="jogo da memoria" src="./src/assets/jogo-da-memoria-gif.gif">
+  <img alt="jogo da memoria" src="./src/assets/gif-jogo-memoria.gif">
 </p>
 
 ## 🚀 Tecnologias
