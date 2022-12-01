@@ -1,9 +1,11 @@
-<h1 align="center"> Jogo Da Memória </h1>
+<h1 align="center"> 🌐 Jogo Da Memória!! </h1>
 
 <br>
 
+<h2 align="center"> 📽️Apresentação </h2>
+
 <p align="center">
-  <img alt="calendario da copa" src="./.github/apresentacao_gif.gif" width="100%">
+  <img alt="jogo da memoria" src="./src/assets/jogo-da-memoria-gif.gif">
 </p>
 
 ## 🚀 Tecnologias
